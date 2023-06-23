@@ -67,7 +67,7 @@ def main():
     
     st.set_page_config("Breast Cancer Prediction", r'Related Images and Videos/breast.png', layout="wide")
     
-    page_title, lottie, buff= st.columns([65, 30, 5])
+    page_title, lottie, buff= st.columns([65, 25, 5])
 
     page_title.title('Breast Cancer Prediction')
 
