@@ -75,9 +75,7 @@ def main():
         lottie_json = json.load(f)
     with lottie:
         st_lottie(lottie_json, height= 100, width=200)
-    
-    add_vertical_space(2)
-    
+        
     user_input_checkbox = st.checkbox("Enter Your Own Values")
     
     add_vertical_space(2)
