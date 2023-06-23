@@ -100,7 +100,8 @@ def main():
                     description = get_description(column)
                     value = input_cols[j].text_input(column.replace('_', ' - ').title().replace('Se', 'Standard Error').replace('Fractal - Dimension', 'Fractal Dimension'), help = description, value='')
                     input_values.append(value)
-           
+        
+        add_vertical_space(1)   
         predict_button = st.button("Predict")
         
         if predict_button:
@@ -134,6 +135,7 @@ def main():
                     value = select_cols[j].selectbox(column.replace('_', ' - ').title().replace('Se', 'Standard Error').replace('Fractal - Dimension', 'Fractal Dimension'), values, help = description, index=0)
                     selected_values.append(value)
                 
+        add_vertical_space(1)
         predict_button = st.button("Predict")
         
         if predict_button:
