@@ -153,7 +153,7 @@ def main():
         st.title("About")
         st.write("This is a Breast Cancer Prediction App powered by SVC model. The app takes various features of a breast tumor as input and predicts whether the tumor is benign or malignant.")
         st.markdown("- Accuracy: 97.36%")
-        st.markdown("- False Negatives: 1.75%")
+        st.markdown("- False Negatives: 0.87%")
         
         st.title("Performance Metrics")
         metrics_data = {
