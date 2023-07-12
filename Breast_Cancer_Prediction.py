@@ -66,19 +66,6 @@ def get_description(column):
 def main():
     
     st.set_page_config("Breast Cancer Prediction", r'Related Images and Videos/breast.png', layout="wide")
-
-    st.markdown(
-    """
-    <style>
-    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
-    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
-    .viewerBadge_text__1JaDK {
-        display: none;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-    )
     
     page_title, lottie, buff= st.columns([65, 25, 5])
 
@@ -177,6 +164,19 @@ def main():
         }
         metrics = pd.DataFrame(metrics_data)
         st.dataframe(metrics, hide_index=True)
-    
+
+st.markdown(
+    """
+    <style>
+    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
+
 if __name__ == '__main__':
     main()
