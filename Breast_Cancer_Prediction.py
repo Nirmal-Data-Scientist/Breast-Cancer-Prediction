@@ -5,6 +5,7 @@ import pandas as pd
 import joblib
 import json
 
+
 @st.cache_resource
 def load_resources():
     model = joblib.load(r'Datasets and Models/classifier.pkl')
