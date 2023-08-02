@@ -14,7 +14,7 @@ Before you begin, you will need to have a few tools installed on your machine:
 
 #### Python
 
-Python is the programming language used to develop this project. It is a popular high-level programming language known for its readability and versatility. It is widely used for web development, data analysis, and machine learning. It provides a powerful and flexible foundation for scraping and analyzing Twitter data.
+Python is the programming language used to develop this project. It is a popular high-level programming language known for its readability and versatility. It is widely used for web development, data analysis, and machine learning.
 
 #### Streamlit
 
