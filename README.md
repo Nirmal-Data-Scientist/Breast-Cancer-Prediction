@@ -1,8 +1,8 @@
-# Breast-Cancer-Prediction
+# Tumor Prediction Web Application
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://breast-cancer-prediction.streamlit.app/)
 
-The Breast Cancer Prediction App is a web application that allows users to predict whether a breast tumor is benign or malignant based on various tumor features. It is powered by an SVC (Support Vector Classifier) model trained on a breast cancer dataset.
+The Tumor Prediction App is a web application that allows users to predict whether a tumor is benign or malignant based on various tumor features. It is powered by an SVC (Support Vector Classifier) model trained on a tumor dataset.
 
 ## Prerequisites
 
@@ -18,19 +18,19 @@ Python is the programming language used to develop this project. It is a popular
 
 #### Streamlit
 
-Streamlit is a Python library that enables the creation of interactive and customizable web applications for data science and machine learning projects. In this project, we utilized Streamlit to develop an intuitive user interface for the Breast Cancer Prediction App, allowing users to input tumor feature values and receive predictions in a seamless and user-friendly manner.
+Streamlit is a Python library that enables the creation of interactive and customizable web applications for data science and machine learning projects. In this project, we utilized Streamlit to develop an intuitive user interface for the Tumor Prediction App, allowing users to input tumor feature values and receive predictions in a seamless and user-friendly manner.
 
 #### Pandas
 
-Pandas is a widely-used data manipulation library in Python that provides high-performance data structures and data analysis tools. In our project, Pandas was instrumental in handling and processing the breast cancer dataset, facilitating data exploration, manipulation, and integration.
+Pandas is a widely-used data manipulation library in Python that provides high-performance data structures and data analysis tools. In our project, Pandas was instrumental in handling and processing the tumor dataset, facilitating data exploration, manipulation, and integration.
 
 #### scikit-learn
 
-Scikit-learn is a comprehensive machine learning library in Python, providing a wide range of tools and algorithms for data preprocessing, modeling, and evaluation. In our project, we utilized scikit-learn's StandardScaler for feature scaling and Support Vector Classifier (SVC) for breast cancer prediction. The library's rich set of functionalities enabled us to build a robust and accurate predictive model.
+Scikit-learn is a comprehensive machine learning library in Python, providing a wide range of tools and algorithms for data preprocessing, modeling, and evaluation. In our project, we utilized scikit-learn's StandardScaler for feature scaling and Support Vector Classifier (SVC) for tumor prediction. The library's rich set of functionalities enabled us to build a robust and accurate predictive model.
 
 #### imbalanced-learn (imblearn)
 
-imblearn is a Python library for handling imbalanced datasets. It provides resampling techniques to address class imbalance. Used in our project to handle class imbalance in the breast cancer dataset.
+imblearn is a Python library for handling imbalanced datasets. It provides resampling techniques to address class imbalance. Used in our project to handle class imbalance in the tumor dataset.
 
 #### matplotlib
 
@@ -42,7 +42,7 @@ Joblib is a library in Python used for efficiently storing and loading Python ob
 
 ## Features
 
-* ##### Predictive Analysis: The app utilizes an SVC model to predict whether a breast tumor is benign or malignant based on various tumor features.
+* ##### Predictive Analysis: The app utilizes an SVC model to predict whether a tumor is benign or malignant based on various tumor features.
 
 * ##### User Input: Users can enter their own tumor feature values to generate personalized predictions. The app provides text input fields for each feature, allowing users to input their values.
 
@@ -80,11 +80,11 @@ To modify the app, you can:
 
 ## Potential Applications
 
-1. Early Detection and Screening: The app can be used as a screening tool to assess the likelihood of breast tumors being benign or malignant. It can aid in early detection by providing quick and convenient predictions based on tumor features. This can potentially assist healthcare professionals in identifying high-risk cases and initiating timely interventions.
+1. Early Detection and Screening: The app can be used as a screening tool to assess the likelihood of tumors being benign or malignant. It can aid in early detection by providing quick and convenient predictions based on tumor features. This can potentially assist healthcare professionals in identifying high-risk cases and initiating timely interventions.
 
 2. Patient Education and Empowerment: The app can serve as an educational resource for patients. By inputting their own tumor feature values or exploring pre-defined test data, individuals can gain insights into the factors that contribute to tumor classification. This knowledge empowers patients to understand the characteristics of their condition, facilitating more informed discussions with healthcare providers.
 
-3. Research and Development: Researchers and scientists working in the field of breast cancer can utilize the app to explore different combinations of tumor features and observe the corresponding predictions. This can aid in the discovery of patterns, correlations, or potential risk factors associated with tumor malignancy. The app's interactive nature allows for quick experimentation and hypothesis testing, supporting ongoing research efforts.
+3. Research and Development: Researchers and scientists working in this particular field can utilize the app to explore different combinations of tumor features and observe the corresponding predictions. This can aid in the discovery of patterns, correlations, or potential risk factors associated with tumor malignancy. The app's interactive nature allows for quick experimentation and hypothesis testing, supporting ongoing research efforts.
 
 ## Potential issues with the app
 
